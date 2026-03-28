@@ -794,20 +794,20 @@ def generate_html(file_name, videos, pdfs, others):
     </div>
     <div class="container-fluid py-5 text-center">
         <h1 class="brand-title mb-4">
-<a href="https://t.me/ITsGOLU_OFFICIAL" style="text-decoration: none; color: inherit;">
-  <i class="fas fa-bolt"></i> 𝐈𝐓'𝐬𝐆𝐎𝐋𝐔.™® <i class="fas fa-bolt"></i>
+<a href="https://t.me/Sachin4Sharma1210" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-bolt"></i> SACHIN SHARMA <i class="fas fa-bolt"></i>
 </a>
 
                 </h1>
         <h2 class="header-title mb-4">{file_name_without_extension}</h2>
         <p class="lead">
-<a href="https://t.me/ITsGOLU_OFFICIAL" style="text-decoration: none; color: inherit;">
+<a href="https://t.me/Sachin4Sharma1210" style="text-decoration: none; color: inherit;">
   <span class="badge bg-primary me-2">
-    <i class="fas fa-robot"></i> Join @ITsGOLU_OFFICIAL
+    <i class="fas fa-robot"></i> Join @Sachin4Sharma1210
   </span>
 </a>
 
-            <a href="http://t.me/ITsGOLU_OFFICIAL" class="text-decoration-none">
+            <a href="https://t.me/Sachin4Sharma1210" class="text-decoration-none">
                 <span class="badge bg-warning">
                     <i class="fas fa-bolt"></i>PJ 
                 </span>
@@ -875,7 +875,7 @@ def generate_html(file_name, videos, pdfs, others):
         f'<div class="item-actions">'
         f'<button class="btn-action view" onclick="viewPDF(\'{obfuscate_url(url)}\')" title="View PDF">'
         f'<i class="fas fa-eye"></i></button>'
-        f'<button class="btn-action download" onclick="downloadFile(\'{obfuscate_url(url)}\', \'{name} - @ITsGOLU_OFFICIAL.pdf\')" title="Download PDF">'
+        f'<button class="btn-action download" onclick="downloadFile(\'{obfuscate_url(url)}\', \'{name} - @Sachin4Sharma1210.pdf\')" title="Download PDF">'
         f'<i class="fas fa-download"></i></button>'
         f'</div>'
         f'</div>'
@@ -1216,9 +1216,9 @@ async def handle_txt2html(client: Client, message: Message):
         # Generate HTML
         html_content = generate_html(file_name, videos, pdfs, others)
         
-        # Save HTML file with @ITsGOLU_OFFICIAL suffix
+        # Save HTML file with @Sachin4Sharma1210 suffix
         base_name = os.path.splitext(file_name)[0]
-        html_file_name = f"{base_name}_@ITsGOLU_OFFICIAL .html"
+        html_file_name = f"{base_name}_@Sachin4Sharma1210 .html"
         html_file_path = os.path.join(os.path.dirname(file_path), html_file_name)
         
         with open(html_file_path, "w", encoding='utf-8') as f:
