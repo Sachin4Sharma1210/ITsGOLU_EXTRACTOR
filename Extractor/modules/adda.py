@@ -84,7 +84,7 @@ async def adda_command_handler(app, m):
     status_msg = None
     try:
         status_msg = await m.reply_text(
-            "🔹 <b>-:𝐈𝐓'𝐬𝐆𝐎𝐋𝐔.™®:-</b> 🔹\n\n"
+            "🔹 <b>-: SACHIN SHARMA:-</b> 🔹\n\n"
             "Send login details in this format:\n"
             "📧 <code>email*password</code>\n\n"
             "<i>Example:</i>\n"
